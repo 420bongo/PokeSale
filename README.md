@@ -1,6 +1,6 @@
 # Pokesale
 
-Klikbar frontend-prototype til en dansk Pokémon-kort-markedsplads.
+Klikbar frontend-prototype til en dansk Pokémon-PokeSalesplads.
 
 ## Start
 Åbn `index.html` i en browser.
