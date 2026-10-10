@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KortMarked — Køb og sælg Pokémon-kort</title>
-<meta name="description" content="KortMarked er en dansk markedsplads for køb, salg og bytning af Pokémon-kort.">
+<title>Pokesale — Køb og sælg Pokémon-kort</title>
+<meta name="description" content="Pokesale er en dansk markedsplads for køb, salg og bytning af Pokémon-kort.">
 <style>
 :root{--blue:#1769e8;--blue2:#0d4fb5;--navy:#07192e;--yellow:#ffca28;--bg:#f5f7fb;--white:#fff;--line:#e4e8ef;--text:#101828;--muted:#667085;--green:#0d9b59;--red:#e5484d;--shadow:0 12px 35px rgba(16,24,40,.08)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.container{max-width:1240px;margin:auto;padding:0 20px}
@@ -60,7 +60,7 @@ footer{background:var(--navy);color:#cbd5e1;padding:34px 0}.footer{display:flex;
 <button class="apply" onclick="render();toast('Filtre anvendt')">Anvend filtre</button></aside>
 </div></div></main>
 
-<footer><div class="container footer"><div><strong>◉ KortMarked</strong><br><small>Danmarks markedsplads for Pokémon-samlere.<br>For samlere, af samlere ❤️</small></div><small>Om os · Hjælp · Handelsbetingelser · Privatliv · Kontakt</small></div></footer>
+<footer><div class="container footer"><div><strong>◉ Pokesale</strong><br><small>Danmarks markedsplads for Pokémon-samlere.<br>For samlere, af samlere ❤️</small></div><small>Om os · Hjælp · Handelsbetingelser · Privatliv · Kontakt</small></div></footer>
 
 <div class="modal" id="sellModal"><div class="dialog"><div class="dialog-top"><div><h2>Sælg et Pokémon-kort</h2><p>Opret din annonce på under 2 minutter.</p></div><button class="close" onclick="closeSell()">×</button></div>
 <div class="form"><div><label>Kortnavn<input id="newName" placeholder="Fx Charizard ex"></label></div><div><label>Set<input id="newSet" placeholder="Fx 151"></label></div><div><label>Pris<input id="newPrice" placeholder="Fx 349 kr."></label></div><div><label>Stand<select id="newCondition"><option>Near Mint</option><option>Mint</option><option>Excellent</option><option>Played</option></select></label></div><div class="full"><label>Billede<input type="file" accept="image/*"></label></div><div class="full"><label>Beskrivelse<textarea placeholder="Fortæl lidt om kortet..."></textarea></label></div></div>

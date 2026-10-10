@@ -1,4 +1,4 @@
-# KortMarked
+# Pokesale
 
 Klikbar frontend-prototype til en dansk Pokémon-kort-markedsplads.
 
